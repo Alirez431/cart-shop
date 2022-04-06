@@ -1,0 +1,36 @@
+.navbarheader {
+    display: flex;
+    justify-content: space-between;
+    /* flex-direction: row; */
+    width: 100%;
+    top: 0;
+    background:rgb(35, 137, 219);
+    position:fixed;
+}
+
+.Navbarnav a {
+    font-size:20px;
+    text-decoration: none;
+    color: #fff;
+    margin-left: 50px;
+    font-weight: bold;
+    
+}
+
+.navbarcart {
+    position: relative;
+}
+.navbarcart a {
+    color: white;
+    margin-right: 50px;
+    
+}
+.navbarcart div {
+    color: rgb(8, 8, 8);
+    font-weight: bold;
+    font-size: 1.2rem;
+    position: absolute;
+    top: 0px;
+    right: 55px;
+
+}
